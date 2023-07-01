@@ -17,6 +17,25 @@
       <input formControlName="confirmPassword" type="password" class="form-control">
     </div>
 
+    <div formGroupName="address">
+
+      <div>
+        <label>City</label>
+        <input type="text" formControlName="city">
+      </div>
+
+      <div>
+        <label>State</label>
+        <input type="text" formControlName="state">
+      </div>
+
+      <div>
+        <label>Postal Code</label>
+        <input type="text" formControlName="postalCode">
+      </div>
+
+    </div>
+
     <button type="submit">Register</button>
 
   </form>
