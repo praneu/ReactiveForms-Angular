@@ -32,6 +32,27 @@ registrationForm = this.fb.group({
   })
 });
 
+ loadApiData(){ 
+  //setValue() follows a strict format of the formControl and all the controls must be defined
+  // this.registrationForm.setValue({
+  //   userName:'Sheriff',
+  //   password:'test',
+  //   confirmPassword: 'test',
+  //   address: {
+  //     city: 'New Orleans',
+  //     state: 'Lousiana',
+  //     postalCode: '39870'
+  //   }
+  // })
+
+  //patchValue() is used  to add value to a few forms controls
+  this.registrationForm.patchValue({
+    userName:'Mahesh',
+    password: 'dateOfBirth',
+    confirmPassword: 'dateOfBirth'
+  })
+ }
+
 
  loadApiData(){ 
   //setValue() follows a strict format of the formControl and all the controls must be defined
