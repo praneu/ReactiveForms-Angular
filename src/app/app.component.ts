@@ -51,7 +51,6 @@ registrationForm = this.fb.group({
     password: 'dateOfBirth',
     confirmPassword: 'dateOfBirth'
   })
-  //test
  }
 
 
