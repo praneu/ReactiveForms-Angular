@@ -3,4 +3,13 @@ h1{
     text-align: center;
     color: blueviolet;
 }
-/* name changed */
+.is-invalid {
+    border-color: red;
+
+}
+.text-danger{
+    color: red;
+}
+.hidden{
+    visibility: hidden;
+}
