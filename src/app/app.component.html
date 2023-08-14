@@ -21,6 +21,17 @@
     </div>
 
     <div>
+      <label>Email</label>
+      <input [class.is-invalid]="email?.invalid && email?.touched" formControlName="email" type="text">
+      <small class="text-danger" [class.hidden]="email?.valid || email?.untouched">Email is required </small>
+    </div>
+
+    <div>
+      <input type="checkbox" formControlName="subscribe">
+      <label>Send me promotional emails</label>
+    </div>
+
+    <div>
       <label>Password</label>
       <input formControlName="password" type="password">
     </div>
